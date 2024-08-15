@@ -2,6 +2,7 @@
 2-Telecharger testlink(testlink-1.9.20.tar) et le decompresser
 3-deplacer le dosser xampp decompressr vers la racine C:
 4-copier le dosser testlink decompresser et coller le dans le dossier htdocs(qui se trouve dans le dossier Xampp de C:) 
+ATT: changer le nom du dossier Testlink_19... par juste (testlink)
 
 5-aller dans le dossier "custom_config.inc" (12ko) remplcer les path de upload_area et logs par: 	$g_repositoryPath = 'C:\xampp\htdocs\testlink\upload_area';
 							$tlCfg->log_path = 'C:\xampp\htdocs\testlink\logs';
